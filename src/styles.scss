@@ -1,0 +1,12 @@
+@import 'carbon-components/scss/globals/scss/styles.scss';
+@import '~@carbon/themes/scss/themes';
+@include carbon--theme($carbon--theme--g10);
+@import 'carbon-addons-data-viz-react/scss/index.scss';
+
+@import './components/QuadrantHeader/quadrant-header.scss';
+@import './content/LandingPage/landing-page.scss';
+@import './content/ProcessQuad/process-quad.scss';
+@import './content/PeopleQuad/people-quad.scss';
+@import './content/ClientQuad/client-quad.scss';
+@import './content/FinancialQuad/financial-quad.scss';
+@import './content/TestProcess/test-process.scss';
