@@ -4509,11 +4509,6 @@ d3-array@1, d3-array@^1.1.1, d3-array@^1.2.0:
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.4.tgz#635ce4d5eea759f6f605863dbcfc30edc737f71f"
   integrity sha512-KHW6M86R+FUPYGb3R5XiYjXPq7VzwxZ22buHhAEVG5ztoEcZZMLov530mmccaqA1GghZArjQV46fuc8kUqhhHw==
 
-"d3-array@1.2.0 - 2":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-2.3.1.tgz#145cb03967578e675db8c62e41f3c406fa7acc73"
-  integrity sha512-YlOh8kwqIz0pDECEdCeqVNelaLQXznD0g6yidhhklMgKxKqbNDrYfoudLMkk9THlqvFll+pXMmXYAyN49yWsmg==
-
 d3-array@1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/d3-array/-/d3-array-1.2.1.tgz#d1ca33de2f6ac31efadb8e050a021d7e2396d5dc"
@@ -4811,17 +4806,6 @@ d3-scale@2:
     d3-time "1"
     d3-time-format "2"
 
-d3-scale@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/d3-scale/-/d3-scale-3.1.0.tgz#e8af005101502dbf26c505d9f40cf88bcb75b2e1"
-  integrity sha512-3edyEBwbwQG400VbgaepQC9ZYFX3h92flLHIUa1+nvZp/mqCYdxNM9zGTjKtPcSAuBCyPePdMQOapsD0qNALrg==
-  dependencies:
-    d3-array "1.2.0 - 2"
-    d3-format "1"
-    d3-interpolate "1"
-    d3-time "1"
-    d3-time-format "2"
-
 d3-selection@1, d3-selection@1.3.0, d3-selection@^1.1.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/d3-selection/-/d3-selection-1.3.0.tgz#d53772382d3dc4f7507bfb28bcd2d6aed2a0ad6d"
@@ -4841,13 +4825,6 @@ d3-shape@1.2.0:
   dependencies:
     d3-path "1"
 
-d3-slice@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/d3-slice/-/d3-slice-0.0.2.tgz#bdb309504b4f2430da8a182f50d3a55cd9d65bd5"
-  integrity sha512-elq54cRW8o47lIhbergSdbOlyPbhx9Xg3+ViqwlP2dTHuaXLOackPuXpM6JnDyZOJ9/VTrFDM1lk3iYUG0jJOQ==
-  dependencies:
-    debug "^2.6.0"
-
 d3-time-format@2:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/d3-time-format/-/d3-time-format-2.1.3.tgz#ae06f8e0126a9d60d6364eac5b1533ae1bac826b"
@@ -4862,7 +4839,7 @@ d3-time-format@2.1.1:
   dependencies:
     d3-time "1"
 
-d3-time@1, d3-time@^1.0.11:
+d3-time@1:
   version "1.0.11"
   resolved "https://registry.yarnpkg.com/d3-time/-/d3-time-1.0.11.tgz#1d831a3e25cd189eb256c17770a666368762bbce"
   integrity sha512-Z3wpvhPLW4vEScGeIMUckDW7+3hWKOQfAWg/U7PlWBnQmeKQ00gCUsTtWSYulrKNA7ta8hJ+xXc6MHrMuITwEw==
@@ -13543,9 +13520,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.20"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.20.tgz#7527178b82f6a62a0f243d1f94fd30e3e3c21098"
-  integrity sha512-8OaIKfzL5cpx8eCMAhhvTlft8GYF8b2eQr6JkCyVdrgjcytyOmPCXrqXFcUnhonRpLlh5yxEZVohm6mzaowUOw==
+  version "0.7.35"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.35.tgz#8bda4827be4f0b1dda91699a29499575a1f1d307"
+  integrity sha512-veRf7dawaj9xaWEu9HoTVn5Pggtc/qj+kqTOFvNiN1l0YdxwC1kvel57UCjThjGa3BHBihE8/UJAHI+uQHmd/g==
 
 uglify-js@3.4.x:
   version "3.4.10"
